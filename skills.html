@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/skills.css">
+    <title>Skills</title>
+</head>
+<body>
+    <header>
+        <!-- Navbar -->
+        <nav class="navbar">
+            <div class="navbar-container">
+                <a href="index.html" class="navbar-brand"><img src="images\logo\logo1-removebg-preview.png" alt="Logo"></a>
+                <ul class="navbar-menu">
+                    <li><a href="index.html#home">Home</a></li>
+                    <li><a href="index.html#about">About</a></li>
+                    <li><a href="skills.html">Skills</a></li>
+                    <li><a href="index.html#projects">Projects</a></li>
+                    <li><a href="index.html#recommendations">Recommendations</a></li>
+                    <li><a href="index.html#contact">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Skills Section -->
+        <section class="skills-section">
+            <div class="container">
+                <h2>Skills & Technologies</h2>
+                <div class="skills-grid">
+                    <!-- Example Skill Card -->
+                    <div class="skill-card">
+                        <h3>Frontend Development</h3>
+                        <p>HTML - 90%</p>
+                        <div class="progress-bar"><div class="progress" style="width: 90%;"></div></div>
+                        <p>CSS - 85%</p>
+                        <div class="progress-bar"><div class="progress" style="width: 85%;"></div></div>
+                        <p>JavaScript - 80%</p>
+                        <div class="progress-bar"><div class="progress" style="width: 80%;"></div></div>
+                        <!-- Add more technologies as needed -->
+                    </div>
+
+                    <!-- More Skill Cards -->
+                    <div class="skill-card">
+                        <h3>Backend Development</h3>
+                        <p>Node.js - 85%</p>
+                        <div class="progress-bar"><div class="progress" style="width: 85%;"></div></div>
+                        <p>Express - 80%</p>
+                        <div class="progress-bar"><div class="progress" style="width: 80%;"></div></div>
+                        <p>MySQL - 80%</p>
+                        <div class="progress-bar"><div class="progress" style="width: 80%;"></div></div>
+                        <!-- Add more technologies as needed -->
+                    </div>
+
+                    <div class="skill-card">
+                        <h3>Artificial Intelligence</h3>
+                        <p>Python - 90%</p>
+                        <div class="progress-bar"><div class="progress" style="width: 90%;"></div></div>
+                        <p>NLP - 85%</p>
+                        <div class="progress-bar"><div class="progress" style="width: 85%;"></div></div>
+                        <p>TensorFlow - 80%</p>
+                        <div class="progress-bar"><div class="progress" style="width: 80%;"></div></div>
+                        <!-- Add more technologies as needed -->
+                    </div>
+
+                    <div class="skill-card">
+                        <h3>Machine Learning</h3>
+                        <p>Python - 90%</p>
+                        <div class="progress-bar"><div class="progress" style="width: 90%;"></div></div>
+                        <p>Pandas - 90%</p>
+                        <div class="progress-bar"><div class="progress" style="width: 90%;"></div></div>
+                        <p>SkLearn - 90%</p>
+                        <div class="progress-bar"><div class="progress" style="width: 90%;"></div></div>
+                        <!-- Add more technologies as needed -->
+                    </div>
+
+                    <div class="skill-card">
+                        <h3>CyberSecurity</h3>
+                        <p>Python - 90%</p>
+                        <div class="progress-bar"><div class="progress" style="width: 90%;"></div></div>
+                        <p>Kali Linux - 85%</p>
+                        <div class="progress-bar"><div class="progress" style="width: 85%;"></div></div>
+                        <p>Vmware - 80%</p>
+                        <div class="progress-bar"><div class="progress" style="width: 80%;"></div></div>
+                        <!-- Add more technologies as needed -->
+                    </div>
+
+                    <div class="skill-card">
+                        <h3>Flutter Development</h3>
+                        <p>Flutter - 85%</p>
+                        <div class="progress-bar"><div class="progress" style="width: 85%;"></div></div>
+                        <p>Dart - 90%</p>
+                        <div class="progress-bar"><div class="progress" style="width: 90%;"></div></div>
+                        <p>API - 85%</p>
+                        <div class="progress-bar"><div class="progress" style="width: 85%;"></div></div>
+                        <!-- Add more technologies as needed -->
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- Popup Form for Adding Skill -->
+        <div class="popup-form-container" id="popupForm">
+            <div class="popup-form">
+                <h3>Add Skill</h3>
+                <form id="skillForm">
+                    <label for="domain">Domain/Skill:</label>
+                    <input type="text" id="domain" name="domain" required>
+
+                    <div class="tech-proficiency">
+                        <div class="tech-column">
+                            <label for="tech1">Technology 1:</label>
+                            <input type="text" id="tech1" name="tech1" required>
+                        </div>
+                        <div class="prof-column">
+                            <label for="prof1">Proficiency 1 (%):</label>
+                            <input type="number" id="prof1" name="prof1" min="0" max="100" required>
+                        </div>
+                    </div>
+
+                    <div class="tech-proficiency">
+                        <div class="tech-column">
+                            <label for="tech2">Technology 2:</label>
+                            <input type="text" id="tech2" name="tech2">
+                        </div>
+                        <div class="prof-column">
+                            <label for="prof2">Proficiency 2 (%):</label>
+                            <input type="number" id="prof2" name="prof2" min="0" max="100" >
+                        </div>
+                    </div>
+
+                    <div class="tech-proficiency">
+                        <div class="tech-column">
+                            <label for="tech3">Technology 3:</label>
+                            <input type="text" id="tech3" name="tech3" >
+                        </div>
+                        <div class="prof-column">
+                            <label for="prof3">Proficiency 3 (%):</label>
+                            <input type="number" id="prof3" name="prof3" min="0" max="100" >
+                        </div>
+                    </div>
+
+                    <div class="tech-proficiency">
+                        <div class="tech-column">
+                            <label for="tech4">Technology 4:</label>
+                            <input type="text" id="tech4" name="tech4" >
+                        </div>
+                        <div class="prof-column">
+                            <label for="prof4">Proficiency 4 (%):</label>
+                            <input type="number" id="prof4" name="prof4" min="0" max="100" >
+                        </div>
+                    </div>
+
+                    <div class="tech-proficiency">
+                        <div class="tech-column">
+                            <label for="tech5">Technology 5:</label>
+                            <input type="text" id="tech5" name="tech5" >
+                        </div>
+                        <div class="prof-column">
+                            <label for="prof5">Proficiency 5 (%):</label>
+                            <input type="number" id="prof5" name="prof5" min="0" max="100" >
+                        </div>
+                    </div>
+                    <!-- Add more fields as needed -->
+
+                    <button type="submit">Add Skill</button>
+                    <button type="button" onclick="closeSkillForm()">Cancel</button>
+                </form>
+            </div>
+        </div>
+    </main>
+    <div class="add-skill-button-container">
+        <button class="add-skill-button" onclick="openSkillForm()">Add Skill</button>
+    </div>
+    
+    <footer class="footer">
+        <div class="footer-left">
+            <img src="images\logo\logo1-removebg-preview.png" alt="Logo" class="footer-logo">
+            <div class="ratings">
+                <div class="rating-item">
+                    <img src="images\logo\sto.png" alt="Rating Icon">
+                    <p>4.5/5 Rating On Stack Overflow</p>
+                </div>
+                <div class="rating-item">
+                    <img src="images\logo\ab-brand.png" alt="Rating Icon">
+                    <p>9/10 Rating On Ambition Box</p>
+                </div>
+                <div class="rating-item">
+                    <img src="images\logo\gld-removebg-preview.png" alt="Rating Icon">
+                    <p>4.5/5 Rating On GlassDoor</p>
+                </div>
+            </div>
+        </div>
+    
+        <div class="footer-center">
+            <div class="footer-links">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="index.html#home">Home</a></li>
+                    <li><a href="skills.html">Skills</a></li>
+                    <li><a href="index.html#about">About</a></li>
+                    <li><a href="index.html#projects">Projects</a></li>
+                    <li><a href="index.html#recommendations">Recommendations</a></li>
+                </ul>
+            </div>
+            <div class="footer-portfolio">
+                <h3>Portfolio</h3>
+                <ul>
+                    <li><a href="#">Frontend Development</a></li>
+                    <li><a href="#">Backend Development</a></li>
+                    <li><a href="#">Website Design</a></li>
+                    <li><a href="#">Machine Learning</a></li>
+                    <li><a href="#">Problem Solving & DSA</a></li>
+                </ul>
+            </div>
+        </div>
+    
+        <div class="footer-right">
+            <h3>Connect</h3>
+            <div class="social-icons">
+                <ul>
+                    <li><a href="#"><img src="images\logo\lkd_logo.png" alt="LinkedIn"> LinkedIn</a></li>
+                    <li><a href="#"><img src="images\logo\Github.png" alt="GitHub"> GitHub</a></li>
+                    <li><a href="#"><img src="images\logo\fb-removebg-preview.png" alt="Facebook"> Facebook</a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+    <div class="footer-bottom">
+        <p>&copy; 2024 Copyright, All Right Reserved</p>
+    </div>
+    
+
+    <script src="js/skills.js"></script>
+</body>
+</html>
